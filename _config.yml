@@ -1,5 +1,17 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
 theme: jekyll-theme-architect
+
+title: Botticelli's Primavera Enriched
+description: A KE4H Project - University of Bologna
+
+# Questo blocco forza il tema a creare il menu di navigazione in alto/laterale
+navbar:
+  - title: Home
+    url: /project-site/index.html
+  - title: Selected Topic & Gap
+    url: /project-site/topic.html
+  - title: SPARQL Queries
+    url: /project-site/sparql.html
+  - title: LLM Prompts & RDF
+    url: /project-site/prompts.html
+  - title: Challenges & Conclusion
+    url: /project-site/challenges.html
